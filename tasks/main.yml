@@ -71,12 +71,12 @@
     type: int
     value: "0"
 
-- name: Dock on the left side
+- name: Dock on the right side
   osx_defaults:
     domain: "com.apple.dock"
     key: "orientation"
     type: string
-    value: "left"
+    value: "right"
 
 - name: Automatically hide and show the Dock
   osx_defaults:
